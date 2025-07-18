@@ -31,8 +31,8 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
   const handleDownloadResume = () => {
     // Create a temporary link to trigger download
     const link = document.createElement("a");
-    link.href = "/E_Resume_Gaurav_Kulkarni_(2).pdf"; // This would be the actual resume file
-    link.download = "E_Resume_Gaurav_Kulkarni_(2).pdf";
+    link.href = "/E_Resume_Gaurav_Kulkarni.pdf"; // This would be the actual resume file
+    link.download = "E_Resume_Gaurav_Kulkarni.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
