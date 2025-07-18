@@ -12,6 +12,7 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
       name: "Gaurav Kulkarni",
       title: "Software Engineer",
       bio: "A collaborative Software Engineer with 3 years of experience applying strong problem-solving skills to full-stack web development. I enjoy working in agile teams to tackle challenges across the stack, from backend architecture to intuitive UIs, with a current focus on leveraging AI to create smarter user experiences.",
+      opportunity: "Looking for full time opportunities as a Software Developer in Germany",
       downloadResume: "Download Resume",
       contact: "Get In Touch"
     },
@@ -19,6 +20,7 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
       name: "Gaurav Kulkarni",
       title: "Software-Ingenieur",
       bio: "Ein kollaborativer Software-Ingenieur mit 3 Jahren Erfahrung in der Anwendung starker Problemlösungsfähigkeiten in der Full-Stack-Webentwicklung. Ich arbeite gerne in agilen Teams, um Herausforderungen im gesamten Stack zu bewältigen, von der Backend-Architektur bis zu intuitiven Benutzeroberflächen, mit aktuellem Fokus auf die Nutzung von KI zur Schaffung intelligenterer Benutzererfahrungen.",
+      opportunity: "Auf der Suche nach Vollzeitbeschäftigung als Software-Entwickler in Deutschland",
       downloadResume: "Lebenslauf Herunterladen",
       contact: "Kontakt Aufnehmen"
     }
@@ -61,8 +63,12 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
             {content[language].title}
           </h2>
           
-          <p className="text-lg md:text-xl text-foreground/90 mb-12 max-w-3xl mx-auto leading-relaxed animate-slide-up">
+          <p className="text-lg md:text-xl text-foreground/90 mb-6 max-w-3xl mx-auto leading-relaxed animate-slide-up">
             {content[language].bio}
+          </p>
+          
+          <p className="text-lg md:text-xl text-primary font-medium mb-12 animate-slide-up">
+            {content[language].opportunity}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up">
