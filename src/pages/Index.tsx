@@ -20,7 +20,7 @@ const Index = () => {
       </div>
 
       {/* Hero Section */}
-      <Hero language={language} profileImage="/profile.jpg" />
+      <Hero language={language} profileImage="/gaurav latest pic.png" />
 
       {/* Experience Section */}
       <Experience language={language} />
