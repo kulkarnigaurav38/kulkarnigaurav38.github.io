@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Hero } from "@/components/Hero";
 import { Experience } from "@/components/Experience";
+import { Education } from "@/components/Education";
 import { Projects } from "@/components/Projects";
 import { Contact } from "@/components/Contact";
 import { LanguageToggle } from "@/components/LanguageToggle";
@@ -23,6 +24,9 @@ const Index = () => {
 
       {/* Experience Section */}
       <Experience language={language} />
+
+      {/* Education Section */}
+      <Education language={language} />
 
       {/* Projects Section */}
       <Projects language={language} />
