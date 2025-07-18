@@ -3,9 +3,10 @@ import { Github, Linkedin, Mail, Download } from "lucide-react";
 
 interface HeroProps {
   language: 'en' | 'de';
+  profileImage?: string;
 }
 
-export const Hero = ({ language }: HeroProps) => {
+export const Hero = ({ language, profileImage }: HeroProps) => {
   const content = {
     en: {
       name: "Gaurav Kulkarni",
@@ -42,6 +43,19 @@ export const Hero = ({ language }: HeroProps) => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-gradient">
             {content[language].name}
           </h1>
+          
+          {profileImage && (
+            <div className="mb-8 flex justify-center animate-slide-up">
+              <div className="relative">
+                <img 
+                  src={profileImage} 
+                  alt={content[language].name}
+                  className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary/20 shadow-elegant glow-effect"
+                />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 animate-pulse"></div>
+              </div>
+            </div>
+          )}
           
           <h2 className="text-2xl md:text-3xl text-muted-foreground mb-8 animate-slide-up">
             {content[language].title}

@@ -93,12 +93,6 @@ export const Contact = ({ language }: ContactProps) => {
               </div>
             </CardContent>
           </Card>
-          
-          <div className="mt-12 text-center">
-            <p className="text-muted-foreground">
-              © 2024 Gaurav Kulkarni. Built with React & Tailwind CSS.
-            </p>
-          </div>
         </div>
       </div>
     </section>
