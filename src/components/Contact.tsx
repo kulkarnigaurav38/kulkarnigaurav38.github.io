@@ -28,7 +28,7 @@ export const Contact = ({ language }: ContactProps) => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '../../public/E_Resume_Gaurav_Kulkarni_(2).pdf';
+    link.href = "/E_Resume_Gaurav_Kulkarni_(2).pdf";
     link.download = "E_Resume_Gaurav_Kulkarni_(2).pdf";
     document.body.appendChild(link);
     link.click();
