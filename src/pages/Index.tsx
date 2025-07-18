@@ -7,20 +7,23 @@ import { Contact } from "@/components/Contact";
 import { LanguageToggle } from "@/components/LanguageToggle";
 
 const Index = () => {
-  const [language, setLanguage] = useState<'en' | 'de'>('en');
+  const [language, setLanguage] = useState<"en" | "de">("en");
 
   return (
     <div className="min-h-screen bg-background">
       {/* Fixed Language Toggle */}
       <div className="fixed top-6 right-6 z-50">
-        <LanguageToggle 
-          currentLanguage={language} 
+        <LanguageToggle
+          currentLanguage={language}
           onLanguageChange={setLanguage}
         />
       </div>
 
       {/* Hero Section */}
-      <Hero language={language} profileImage="/gaurav latest pic.png" />
+      <Hero
+        language={language}
+        profileImage="/gaurav_latest_pic.png"
+      />
 
       {/* Experience Section */}
       <Experience language={language} />
