@@ -16,8 +16,8 @@ export const Experience = ({ language }: ExperienceProps) => {
     {
       id: 1,
       title: {
-        en: "Working Student QA Engineer Cloud & Master's Thesis Candidate",
-        de: "Werkstudent QA-Ingenieur Cloud & Masterarbeit-Kandidat",
+        en: "Working Student QA Engineer Cloud",
+        de: "Werkstudent QA-Ingenieur Cloud",
       },
       company: "IONOS SE",
       location: {
@@ -27,11 +27,11 @@ export const Experience = ({ language }: ExperienceProps) => {
       dates: "June 2024 - Present",
       bullets: {
         en: [
-          "For my Master's Thesis, architecting an automated test case generation system using a RAG pipeline and prompt engineering (Python, FastAPI, pgvector), projected to reduce manual test creation time by 30%.",
+          "Architected an automated test case generation system using a RAG pipeline and prompt engineering (Python, FastAPI, pgvector), projected to reduce manual test creation time by 30%.",
           "Influenced the QA team's Software Quality Assurance (SQA) strategy by delivering a comparative analysis of AI tools, leading to the development of a new Karate-based test automation framework.",
         ],
         de: [
-          "Für meine Masterarbeit entwickle ich ein automatisiertes Testfall-Generierungssystem mit RAG-Pipeline und Prompt Engineering (Python, FastAPI, pgvector), das die manuelle Testerstellung um 30% reduzieren soll.",
+          "Automatisiertes System zur Generierung von Testfällen mit RAG-Pipeline und Prompt Engineering (Python, FastAPI, pgvector), entwickelt, um die manuelle Erstellung von Tests um 30 % zu reduzieren.",
           "Beeinflusste die SQA-Strategie des QA-Teams durch eine vergleichende Analyse von KI-Tools, was zur Entwicklung eines neuen Karate-basierten Testautomatisierungs-Frameworks führte.",
         ],
       },
