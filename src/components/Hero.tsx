@@ -14,7 +14,6 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
       bio: "A collaborative Software Engineer with 3 years of experience applying strong problem-solving skills to full-stack web development. I enjoy working in agile teams to tackle challenges across the stack, from backend architecture to intuitive UIs, with a current focus on leveraging AI to create smarter user experiences.",
       opportunity:
         "Looking for full time opportunities as a Software Developer in Germany",
-      downloadResume: "Download Resume",
       contact: "Get In Touch",
     },
     de: {
@@ -23,19 +22,8 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
       bio: "Ein kollaborativer Software-Ingenieur mit 3 Jahren Erfahrung in der Anwendung starker Problemlösungsfähigkeiten in der Full-Stack-Webentwicklung. Ich arbeite gerne in agilen Teams, um Herausforderungen im gesamten Stack zu bewältigen, von der Backend-Architektur bis zu intuitiven Benutzeroberflächen, mit aktuellem Fokus auf die Nutzung von KI zur Schaffung intelligenterer Benutzererfahrungen.",
       opportunity:
         "Auf der Suche nach Vollzeitbeschäftigung als Software-Entwickler in Deutschland",
-      downloadResume: "Lebenslauf Herunterladen",
       contact: "Kontakt Aufnehmen",
     },
-  };
-
-  const handleDownloadResume = () => {
-    // Create a temporary link to trigger download
-    const link = document.createElement("a");
-    link.href = "/E_Resume_Gaurav_Kulkarni.pdf"; // This would be the actual resume file
-    link.download = "E_Resume_Gaurav_Kulkarni.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
   };
 
   return (
@@ -74,15 +62,6 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up">
-            <Button
-              onClick={handleDownloadResume}
-              size="lg"
-              className="gap-2 px-8 py-3 glow-effect hover:animate-glow-pulse smooth-transition"
-            >
-              <Download className="h-5 w-5" />
-              {content[language].downloadResume}
-            </Button>
-
             <div className="flex gap-4">
               <Button
                 variant="outline"

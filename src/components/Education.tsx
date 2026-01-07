@@ -49,14 +49,11 @@ export const Education = ({ language }: EducationProps) => {
   const content = educationData[language];
 
   return (
-    <section className="py-20 px-4 bg-surface/50">
+    <section className="py-20 px-4 bg-muted/30">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
-            {content.title}
-          </h2>
-          <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full"></div>
-        </div>
+        <h2 className="text-4xl md:text-5xl font-bold text-center py-12 mb-8 text-gradient">
+          {content.title}
+        </h2>
         
         <div className="space-y-8">
           {content.items.map((item, index) => (
