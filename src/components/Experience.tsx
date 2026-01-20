@@ -16,8 +16,8 @@ export const Experience = ({ language }: ExperienceProps) => {
     {
       id: 1,
       title: {
-        en: "Working Student QA Engineer Cloud",
-        de: "Werkstudent QA Engineer Cloud",
+        en: "Working Student AI Engineer in QA, Cloud",
+        de: "Werkstudent AI Engineer in QA, Cloud",
       },
       company: "IONOS SE",
       companyUrl: "https://drive.google.com/file/d/1rXRRHH9wGHvI80b-h_I4cOvfK-k6xB4n/view?usp=sharing",
@@ -28,12 +28,12 @@ export const Experience = ({ language }: ExperienceProps) => {
       dates: "June 2024 - August 2025",
       bullets: {
         en: [
-          "Developed a tool that automatically creates test cases using an AI pipeline (RAG) and prompt engineering (Python, FastAPI, PostgreSQL), aiming to reduce manual work by 30%.",
-          "Presented a comparative analysis of various AI tools to improve test strategy, leading to the introduction of a new framework for automated testing (Karate).",
+          "Developed RAG pipeline using Continue.dev as VSCode extension and FastAPI backend. Utilized Llama 3.3 70B model with PostgreSQL as vector DB and optimization via prompt engineering.",
+          "Integrated Karate Java Testing Framework to create automated test cases for IONOS Cloud products. Reduced manual effort by 30% through efficient automation.",
         ],
         de: [
-          "Entwicklung eines Tools, das automatisch Testfälle erstellt. Dafür nutze ich eine KI-Pipeline (RAG) und Prompt Engineering (Python, FastAPI, PostgreSQL). Das Ziel ist, die manuelle Arbeit um 30% zu reduzieren.",
-          "Vergleich verschiedener KI-Tools, um die Test-Strategie zu verbessern. Daraufhin Einführung eines neuen Frameworks für automatische Tests (Karate).",
+          "Entwickelt RAG-Pipeline mit Continue.dev als VSCode-Extension und FastAPI-Backend. Nutzte Llama 3.3 70B-Modell mit PostgreSQL als Vector-DB und optimierung durch Prompt-Engineering.",
+          "Integrierte Karate Java Testing Framework zur Erstellung automatisierter Testfälle für IONOS Cloud-Produkte. Reduzierte manuellen Aufwand um 30% durch effiziente Automatisierung.",
         ],
       },
       tags: ["Python", "FastAPI", "PostgreSQL", "RAG", "Karate", "AI"],
@@ -42,7 +42,7 @@ export const Experience = ({ language }: ExperienceProps) => {
       id: 2,
       title: {
         en: "Software Developer Intern & Software Engineer",
-        de: "Praktikant Softwareentwicklung & Softwareentwickler",
+        de: "Softwareentwickler & Praktikant Softwareentwicklung",
       },
       company: "GENPACT",
       companyUrl: "https://drive.google.com/drive/folders/1nOp2nQuW9_M0lk3lAMmBSGxihQdC-R6n?usp=sharing",
@@ -53,37 +53,37 @@ export const Experience = ({ language }: ExperienceProps) => {
       dates: "March 2023 - January 2024",
       bullets: {
         en: [
-          "Optimized invoice processing through Process Mining (Celonis), reducing processing time by 15%. Certified as 'Celonis Certified Technical Expert'.",
-          "Developed a chatbot using React.js and managed deployments via Jenkins and Docker, ensuring 99.9% availability.",
+          "Developed chatbot using React.js in agile methodology. Managed GitHub repository, CI/CD with GitHub Actions and Docker; ensured 99.9% availability.",
+          "Optimized accounts payable processes with Celonis Process Mining. Received Certified Technical Expert certification; transformed data and analyzed bottlenecks.",
         ],
         de: [
-          "Optimierung der Rechnungsbearbeitung durch Process Mining (Celonis). Die Bearbeitungszeit wurde dadurch um 15% gesenkt.",
-          "Entwicklung eines Chatbots mit React.js und Verwaltung der Deployments über Jenkins und Docker. Erreichung einer Verfügbarkeit von 99,9%.",
+          "Entwickelte Chatbot mit React.js in agiler Methodik. Verwaltete GitHub-Repository, CI/CD mit GitHub Actions und Docker; sicherte 99,9% Verfügbarkeit.",
+          "Optimierte Accounts-Payable-Prozesse mit Celonis Process Mining. Erhielt Zertifizierung als Certified Technical Expert; wandelte Daten um und analysierte Engpässe.",
         ],
       },
-      tags: ["Celonis", "Process Mining", "React.js", "Jenkins", "Docker"],
+      tags: ["Celonis", "Process Mining", "React.js", "GitHub Actions", "Docker"],
     },
     {
       id: 3,
       title: {
-        en: "Intern Java Spring Boot Development",
-        de: "Praktikant Java Spring Boot Entwicklung",
+        en: "Intern Backend Developer",
+        de: "Praktikant Backend Entwickler",
       },
-      company: "KARO Technology",
+      company: "KARO Startup Technology",
       companyUrl: "https://drive.google.com/drive/folders/1N7Jon9kWrQb7qGrey5YycR57thV1EkKj?usp=sharing",
       location: {
-        en: "Remote",
-        de: "Remote",
+        en: "Bengaluru, India",
+        de: "Bengaluru, Indien",
       },
       dates: "August 2022 - January 2023",
       bullets: {
         en: [
-          "Built a backend with microservices (Java, Spring Boot). Provided financial data via 15+ REST APIs for an analytics platform.",
-          "Improved code quality through extensive testing (95% coverage with JUnit) and simplified updates using Docker containers.",
+          "Implemented scalable microservice architecture using Spring Boot for financial data. Provided 15+ REST interfaces for integrations.",
+          "Improved code quality with 95% test coverage using JUnit and deployment via Docker.",
         ],
         de: [
-          "Aufbau eines Backends mit Microservices (Java, Spring Boot). Bereitstellung von Finanzdaten über 15+ Schnittstellen (REST-APIs) für eine Analyse-Plattform.",
-          "Verbesserung der Code-Qualität durch viele Tests (95% Abdeckung mit JUnit) und einfachere Updates durch Docker-Container.",
+          "Implementierte skalierbare Microservice-Architektur mit Spring Boot für Finanzdaten. Bereitstellte 15+ REST-Schnittstellen für Integrationen.",
+          "Verbesserte Code-Qualität mit 95% Testabdeckung durch JUnit und deployment mit Docker.",
         ],
       },
       tags: ["Java", "Spring Boot", "Microservices", "REST API", "JUnit", "Docker"],
@@ -91,29 +91,50 @@ export const Experience = ({ language }: ExperienceProps) => {
     {
       id: 4,
       title: {
+        en: "Intern Full-Stack Developer",
+        de: "Praktikant Full-Stack Entwickler",
+      },
+      company: "Tata Entreprenuership Society (JITSIE), IIT Madras",
+      companyUrl: "",
+      location: {
+        en: "Chennai, India",
+        de: "Chennai, Indien",
+      },
+      dates: "January 2022 - August 2022",
+      bullets: {
+        en: [
+          "Developed MERN stack applications for startup incubation platforms. Used React.js and Node.js for frontend and backend integrations.",
+          "Optimized APIs and user interfaces. Increased efficiency in agile teams for deep-tech startups.",
+        ],
+        de: [
+          "Entwickelte MERN-Stack-Anwendungen für Startup-Inkubation-Plattformen. Nutzte React.js und Node.js für Frontend und Backend Integrationen.",
+          "Optimierte APIs und Benutzeroberflächen. Steigerte Effizienz in agilen Teams für Deep-Tech-Startups.",
+        ],
+      },
+      tags: ["React.js", "Node.js", "MERN Stack"],
+    },
+    {
+      id: 5,
+      title: {
         en: "Independent Developer (Contributor)",
         de: "Unabhängiger Entwickler (Contributor)",
       },
-      company: {
-        en: "Open-Source Contributions",
-        de: "Open-Source-Beiträge",
-      },
+      company: "Rocket.Chat",
+      companyUrl: "",
       location: {
         en: "Remote",
         de: "Remote",
       },
-      dates: "January 2022 - July 2022",
+      dates: "September 2021 - December 2021",
       bullets: {
         en: [
-          "Led a new feature for Rocket.Chat (Electron.js). Recognized as a top 5% contributor after passing rigorous code reviews.",
-          "Built a secure login system for a private project using modern standards like Passkeys and OAuth 2.0.",
+          "Implemented new feature for Rocket.Chat using Electron.js in collaboration with core team. Successfully merged after code reviews.",
         ],
         de: [
-          "Leitung eines neuen Features für Rocket.Chat (Electron.js). Erfolgreiche Zusammenarbeit mit dem Core-Team und Bestehen strenger Code-Reviews.",
-          "Bau eines sicheren Login-Systems für ein privates Projekt. Nutzung von modernen Standards wie Passkeys und OAuth 2.0.",
+          "Implementierte neues Feature für Rocket.Chat mit Electron.js in Zusammenarbeit mit Core-Team. Erfolgreich gemerged nach Code-Reviews.",
         ],
       },
-      tags: ["Electron.js", "Passkeys", "OAuth 2.0", "Open Source"],
+      tags: ["Electron.js", "Open Source"],
     },
   ];
 
@@ -148,15 +169,11 @@ export const Experience = ({ language }: ExperienceProps) => {
                             rel="noopener noreferrer"
                             className="hover:underline flex items-center gap-1"
                           >
-                            {typeof exp.company === "object"
-                              ? exp.company[language]
-                              : exp.company}
+                            {exp.company}
                             <ExternalLink className="h-3 w-3" />
                           </a>
                         ) : (
-                          typeof exp.company === "object"
-                            ? exp.company[language]
-                            : exp.company
+                          exp.company
                         )}
                       </p>
                       <div className="flex items-center gap-2 text-muted-foreground">
