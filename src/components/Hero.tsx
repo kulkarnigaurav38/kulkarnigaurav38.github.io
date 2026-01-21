@@ -11,17 +11,17 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
     en: {
       name: "Gaurav Kulkarni",
       title: "Software Engineer",
-      bio: "A collaborative Software Engineer with 3 years of experience applying strong problem-solving skills to full-stack web development. I enjoy working in agile teams to tackle challenges across the stack, from backend architecture to intuitive UIs, with a current focus on leveraging AI to create smarter user experiences.",
+      bio: "A collaborative Software Engineer with 4 years experience applying strong problem-solving skills to full-stack web development. I enjoy working in agile teams to tackle challenges across the stack, from backend architecture to intuitive UIs, with a current focus on leveraging AI to create smarter user experiences.",
       opportunity:
-        "Looking for full time opportunities as a Software Developer in Germany",
+        "Looking for full time opportunities in Germany",
       contact: "Get In Touch",
     },
     de: {
       name: "Gaurav Kulkarni",
       title: "Software-Ingenieur",
-      bio: "Ein kollaborativer Software-Ingenieur mit 3 Jahren Erfahrung in der Anwendung starker Problemlösungsfähigkeiten in der Full-Stack-Webentwicklung. Ich arbeite gerne in agilen Teams, um Herausforderungen im gesamten Stack zu bewältigen, von der Backend-Architektur bis zu intuitiven Benutzeroberflächen, mit aktuellem Fokus auf die Nutzung von KI zur Schaffung intelligenterer Benutzererfahrungen.",
+      bio: "Ein kollaborativer Software-Ingenieur mit 4 Jahren Erfahrung in der Anwendung starker Problemlösungsfähigkeiten in der Full-Stack-Webentwicklung. Ich arbeite gerne in agilen Teams, um Herausforderungen im gesamten Stack zu bewältigen, von der Backend-Architektur bis zu intuitiven Benutzeroberflächen, mit aktuellem Fokus auf die Nutzung von KI zur Schaffung intelligenterer Benutzererfahrungen.",
       opportunity:
-        "Auf der Suche nach Vollzeitbeschäftigung als Software-Entwickler in Deutschland",
+        "Auf der Suche nach Vollzeitbeschäftigung in Deutschland",
       contact: "Kontakt Aufnehmen",
     },
   };
