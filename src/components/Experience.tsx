@@ -95,7 +95,7 @@ export const Experience = ({ language }: ExperienceProps) => {
         de: "Praktikant Full-Stack Entwickler",
       },
       company: "Tata Entreprenuership Society (JITSIE), IIT Madras",
-      companyUrl: "",
+      companyUrl: "https://drive.google.com/file/d/1BU4VQfq2dzmveQZsdF02Wzs7NXIvdZ_P/view?usp=sharing",
       location: {
         en: "Chennai, India",
         de: "Chennai, Indien",
