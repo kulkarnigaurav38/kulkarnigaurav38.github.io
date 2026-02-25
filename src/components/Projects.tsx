@@ -21,32 +21,35 @@ export const Projects = ({ language }: ProjectsProps) => {
   const projects = [
     {
       id: 1,
-      title: "Guardrails for AI Agents",
-      description: {
-        en: "Developed compliance architecture (Policy Engine) for risk minimization in autonomous AI systems. Implemented 'Check-then-Act' modules and Human-in-the-Loop mechanisms for maximum process safety.",
-        de: "Entwickelte Compliance-Architektur (Policy Engine) zur Risikominimierung in autonomen KI-Systemen. Implementierte 'Check-then-Act'-Module und Human-in-the-Loop-Mechanismen für maximale Prozesssicherheit.",
-      },
-      technologies: ["Python", "System Design"],
-      githubUrl: "#",
-    },
-    {
-      id: 2,
       title: "DCF Valuation Engine & Fine-Tuned LLM",
       description: {
-        en: "Fine-tuning of a Llama 3 model (Unsloth) on mathematical financial metrics (WACC, Terminal Value). Developed full-stack platform (FastAPI) for providing real-time data and interactive analyses.",
-        de: "Feinabstimmung eines Llama-3-Modells (Unsloth) auf mathematische Finanzmetriken (WACC, Terminal Value). Entwickelte Full-Stack-Plattform (FastAPI) zur Bereitstellung von Echtzeit-Daten und interaktiven Analysen.",
+        en: "Performed Supervised Fine-Tuning (SFT) of Llama 3 using Unsloth and QLoRA for financial forecasting. Developed performant inference API with FastAPI and integrated Transformer models into a Next.js app.",
+        de: "Führte Supervised Fine-Tuning (SFT) von Llama 3 mittels Unsloth und QLoRA für Finanzprognosen durch. Entwickelte performante Inference-API mit FastAPI und integrierte Transformer-Modelle in eine Next.js App.",
       },
-      technologies: ["Python", "Llama 3", "Unsloth", "FastAPI", "Next.js"],
+      technologies: ["Python", "PyTorch", "Hugging Face", "PEFT", "FastAPI", "Next.js"],
       githubUrl: "https://github.com/kulkarnigaurav38/dcf-model-finetuning",
     },
     {
-      id: 3,
-      title: "LernKartei AI - Microservices",
-      description: {
-        en: "Implemented generative AI features (Spring AI) for automated creation of individual learning materials. Migrated to scalable microservice architecture (Docker) and secured APIs using OAuth2 protocols.",
-        de: "Implementierte Generative-AI-Features (Spring AI) zur automatisierten Erstellung individueller Lernmaterialien. Migrierte zu skalierbarer Microservice-Architektur (Docker) und sicherte APIs mittels OAuth2-Protokollen.",
+      id: 2,
+      title: {
+        en: "Dibuco AI – News Intelligence & Opinion Mining Platform",
+        de: "Dibuco AI – News Intelligence & Opinion Mining Plattform",
       },
-      technologies: ["Spring Boot", "Spring AI", "React", "Docker"],
+      description: {
+        en: "Developed a data engineering pipeline for analyzing NYT articles using Selenium. Implemented K-Means clustering for topic detection and Transformer models for sentiment analysis. Integrated automated news updates via a Telegram bot based on a Flask backend.",
+        de: "Entwickelte für Dibuco eine Data-Engineering-Pipeline zur Analyse von NYT-Artikeln mittels Selenium. Implementierte K-Means Clustering zur Themenerkennung und Transformer-Modelle für Sentiment-Analysen. Integrierte automatisierte News-Updates über einen Telegram-Bot basierend auf einem Flask-Backend.",
+      },
+      technologies: ["Python", "Flask", "Hugging Face", "Scikit-Learn", "Selenium"],
+      githubUrl: "#",
+    },
+    {
+      id: 3,
+      title: "LernKartei AI - Microservices Platform",
+      description: {
+        en: "Implemented scalable microservice architecture (Spring Boot) and generative AI features (Spring AI). Developed dynamic React frontend and secured REST endpoints using OAuth2.",
+        de: "Implementierte skalierbare Microservice-Architektur (Spring Boot) und Generative AI Features (Spring AI). Entwickelte dynamisches React-Frontend und sicherte REST-Endpunkte mittels OAuth2 ab.",
+      },
+      technologies: ["Java", "Spring Boot", "Spring AI", "React", "Docker", "PostgreSQL"],
       githubUrl: "https://github.com/kulkarnigaurav38/java_prod_proj",
     },
     {
@@ -56,21 +59,21 @@ export const Projects = ({ language }: ProjectsProps) => {
         de: "GWBASIC-zu-C-Compiler",
       },
       description: {
-        en: "Developed compiler using JavaCC and AST for structural analysis and translation of 40+ commands. Implemented complex semantic logic for error detection and generation of valid C code.",
-        de: "Entwickelte Compiler mittels JavaCC und AST zur strukturellen Analyse und Übersetzung von 40+ Befehlen. Implementierte komplexe semantische Logik zur Fehlererkennung und Generierung von validem C-Code.",
+        en: "Developed complete compiler in Java (JavaCC) for automated translation of legacy code. Implemented Lexer, Parser, and Abstract Syntax Trees (AST) – core concepts of NLP processing. Realized complex semantic analyses for code logic validation and error detection.",
+        de: "Entwickelte vollständigen Compiler in Java (JavaCC) zur automatisierten Übersetzung von Legacy-Code. Implementierte Lexer, Parser und Abstract Syntax Trees (AST) – Kernkonzepte der NLP-Verarbeitung. Realisierte komplexe semantische Analysen zur Validierung der Code-Logik und Fehlererkennung.",
       },
-      technologies: ["JavaCC", "Java"],
+      technologies: ["Java", "JavaCC", "C", "Compiler Construction"],
       githubUrl: "#",
     },
     {
       id: 5,
-      title: "BrainML | Smart India Hackathon",
+      title: "BrainML – Smart India Hackathon | Medical AI",
       description: {
-        en: "Developed deep learning model (TensorFlow) for depression diagnosis via MRI scans (90% accuracy). Created Node.js prototype for clinical demonstration and validated results with medical datasets.",
-        de: "Entwickelte Deep-Learning-Modell (TensorFlow) zur Depressionsdiagnose mittels MRT-Scans (90% Genauigkeit). Erstellte Node.js-Prototyp zur klinischen Demonstration und validierte Ergebnisse mit medizinischen Datensätzen.",
+        en: "Trained a deep learning model (TensorFlow) for analyzing MRI scans (diagnosis: depression) with 90% accuracy. Developed a Node.js prototype for clinical demonstration and validated results with real medical datasets.",
+        de: "Trainierte ein Deep-Learning-Modell (TensorFlow) zur Analyse von MRT-Scans (Diagnose: Depression) mit 90% Genauigkeit. Entwickelte einen Node.js-Prototyp zur klinischen Demonstration und validierte die Ergebnisse mit realen medizinischen Datensätzen.",
       },
-      technologies: ["TensorFlow", "Python", "Node.js"],
-      githubUrl: "https://drive.google.com/drive/folders/1CEJplcpgp-d8-XQOBYEFuXOfG8Zk3Wid?usp=sharing",
+      technologies: ["Python", "TensorFlow", "Node.js", "CNN", "Medical Data"],
+      githubUrl: "#",
     },
   ];
 

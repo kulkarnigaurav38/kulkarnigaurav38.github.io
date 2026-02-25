@@ -16,33 +16,62 @@ export const Experience = ({ language }: ExperienceProps) => {
     {
       id: 1,
       title: {
-        en: "Working Student AI Engineer in QA, Cloud",
-        de: "Werkstudent AI Engineer in QA, Cloud",
+        en: "Master Thesis: Guardrails for AI Agents (AI Governance & Security)",
+        de: "Masterarbeit: Guardrails for AI Agents (AI Governance & Security)",
       },
-      company: "IONOS SE",
-      companyUrl: "https://drive.google.com/file/d/1rXRRHH9wGHvI80b-h_I4cOvfK-k6xB4n/view?usp=sharing",
+      company: "Hochschule für Technik Stuttgart",
+      companyUrl: "",
       location: {
-        en: "Karlsruhe, Germany",
-        de: "Karlsruhe, Deutschland",
+        en: "Stuttgart, Germany",
+        de: "Stuttgart, Deutschland",
       },
-      dates: "June 2024 - August 2025",
+      dates: "October 2025 - Present",
       bullets: {
         en: [
-          "Developed RAG pipeline using Continue.dev as VSCode extension and FastAPI backend. Utilized Llama 3.3 70B model with PostgreSQL as vector DB and optimization via prompt engineering.",
-          "Integrated Karate Java Testing Framework to create automated test cases for IONOS Cloud products. Reduced manual effort by 30% through efficient automation.",
+          "Developed Security Shim backend (FastAPI) for technical safeguarding of AI Agent protocols.",
+          "Implemented policies for Ethical AI and governance checks to ensure compliance with security standards.",
+          "Established Zero-Trust architecture through strict identity validation in distributed systems.",
         ],
         de: [
-          "Entwickelt RAG-Pipeline mit Continue.dev als VSCode-Extension und FastAPI-Backend. Nutzte Llama 3.3 70B-Modell mit PostgreSQL als Vector-DB und optimierung durch Prompt-Engineering.",
-          "Integrierte Karate Java Testing Framework zur Erstellung automatisierter Testfälle für IONOS Cloud-Produkte. Reduzierte manuellen Aufwand um 30% durch effiziente Automatisierung.",
+          "Entwickelte Security Shim Backend (FastAPI) zur technischen Absicherung von AI Agent Protokollen.",
+          "Implementierte Richtlinien für Ethical AI und Governance-Checks zur Einhaltung von Sicherheitsstandards.",
+          "Etablierte Zero-Trust Architektur durch strikte Identitäts-Validierung in verteilten Systemen.",
         ],
       },
-      tags: ["Python", "FastAPI", "PostgreSQL", "RAG", "Karate", "AI"],
+      tags: ["Python", "FastAPI", "AI Governance", "Zero-Trust", "Ethical AI"],
     },
     {
       id: 2,
       title: {
-        en: "Software Developer Intern & Software Engineer",
-        de: "Softwareentwickler & Praktikant Softwareentwicklung",
+        en: "AI Engineer Cloud",
+        de: "AI Engineer Cloud",
+      },
+      company: "IONOS SE",
+      companyUrl: "https://drive.google.com/file/d/1B0geuXl66xPXvnFsnzlLEcqqqxZOGNfp/view?usp=sharing",
+      location: {
+        en: "Karlsruhe, Germany",
+        de: "Karlsruhe, Deutschland",
+      },
+      dates: "June 2024 - September 2025",
+      bullets: {
+        en: [
+          "Designed and implemented a RAG Pipeline with PostgreSQL (Vector DB) and Llama 3.",
+          "Automated cloud tests by integrating the Karate Framework (Java), reducing manual effort by 30%.",
+          "Optimized CI/CD processes for ML models in an agile enterprise environment.",
+        ],
+        de: [
+          "Konzipierte und implementierte eine RAG Pipeline mit PostgreSQL (Vector DB) und Llama 3.",
+          "Automatisierte Cloud-Tests durch Integration des Karate Frameworks (Java), was den manuellen Aufwand um 30% senkte.",
+          "Optimierte CI/CD-Prozesse für ML-Modelle in einer agilen Enterprise-Umgebung.",
+        ],
+      },
+      tags: ["Python", "PostgreSQL", "RAG", "Llama 3", "Karate", "Java", "CI/CD"],
+    },
+    {
+      id: 3,
+      title: {
+        en: "Software Developer",
+        de: "Softwareentwickler",
       },
       company: "GENPACT",
       companyUrl: "https://drive.google.com/drive/folders/1nOp2nQuW9_M0lk3lAMmBSGxihQdC-R6n?usp=sharing",
@@ -50,91 +79,53 @@ export const Experience = ({ language }: ExperienceProps) => {
         en: "Bengaluru, India",
         de: "Bengaluru, Indien",
       },
-      dates: "March 2023 - January 2024",
+      dates: "March 2023 - February 2024",
       bullets: {
         en: [
-          "Developed chatbot using React.js in agile methodology. Managed GitHub repository, CI/CD with GitHub Actions and Docker; ensured 99.9% availability.",
-          "Optimized accounts payable processes with Celonis Process Mining. Received Certified Technical Expert certification; transformed data and analyzed bottlenecks.",
+          "Increased traffic by 30% through implementation of an interactive React frontend.",
+          "Ensured 99.9% system availability through Docker containerization and CI/CD.",
+          "Analyzed data flows in business processes (Celonis Process Mining) to improve efficiency.",
         ],
         de: [
-          "Entwickelte Chatbot mit React.js in agiler Methodik. Verwaltete GitHub-Repository, CI/CD mit GitHub Actions und Docker; sicherte 99,9% Verfügbarkeit.",
-          "Optimierte Accounts-Payable-Prozesse mit Celonis Process Mining. Erhielt Zertifizierung als Certified Technical Expert; wandelte Daten um und analysierte Engpässe.",
+          "Steigerte Traffic um 30% durch Implementierung eines interaktiven React-Frontends.",
+          "Sicherte 99,9% Systemverfügbarkeit mittels Docker Containerisierung und CI/CD.",
+          "Analysierte Datenflüsse in Geschäftsprozessen (Celonis Process Mining) zur Effizienzsteigerung.",
         ],
       },
-      tags: ["Celonis", "Process Mining", "React.js", "GitHub Actions", "Docker"],
-    },
-    {
-      id: 3,
-      title: {
-        en: "Intern Backend Developer",
-        de: "Praktikant Backend Entwickler",
-      },
-      company: "KARO Startup Technology",
-      companyUrl: "https://drive.google.com/drive/folders/1N7Jon9kWrQb7qGrey5YycR57thV1EkKj?usp=sharing",
-      location: {
-        en: "Bengaluru, India",
-        de: "Bengaluru, Indien",
-      },
-      dates: "August 2022 - January 2023",
-      bullets: {
-        en: [
-          "Implemented scalable microservice architecture using Spring Boot for financial data. Provided 15+ REST interfaces for integrations.",
-          "Improved code quality with 95% test coverage using JUnit and deployment via Docker.",
-        ],
-        de: [
-          "Implementierte skalierbare Microservice-Architektur mit Spring Boot für Finanzdaten. Bereitstellte 15+ REST-Schnittstellen für Integrationen.",
-          "Verbesserte Code-Qualität mit 95% Testabdeckung durch JUnit und deployment mit Docker.",
-        ],
-      },
-      tags: ["Java", "Spring Boot", "Microservices", "REST API", "JUnit", "Docker"],
+      tags: ["React", "Docker", "CI/CD", "Celonis", "Process Mining"],
     },
     {
       id: 4,
       title: {
-        en: "Intern Full-Stack Developer",
-        de: "Praktikant Full-Stack Entwickler",
+        en: "Software Developer",
+        de: "Softwareentwickler",
       },
-      company: "Tata Entreprenuership Society (JITSIE), IIT Madras",
-      companyUrl: "https://drive.google.com/file/d/1BU4VQfq2dzmveQZsdF02Wzs7NXIvdZ_P/view?usp=sharing",
-      location: {
-        en: "Chennai, India",
-        de: "Chennai, Indien",
-      },
-      dates: "January 2022 - August 2022",
-      bullets: {
-        en: [
-          "Developed MERN stack applications for startup incubation platforms. Used React.js and Node.js for frontend and backend integrations.",
-          "Optimized APIs and user interfaces. Increased efficiency in agile teams for deep-tech startups.",
-        ],
-        de: [
-          "Entwickelte MERN-Stack-Anwendungen für Startup-Inkubation-Plattformen. Nutzte React.js und Node.js für Frontend und Backend Integrationen.",
-          "Optimierte APIs und Benutzeroberflächen. Steigerte Effizienz in agilen Teams für Deep-Tech-Startups.",
-        ],
-      },
-      tags: ["React.js", "Node.js", "MERN Stack"],
-    },
-    {
-      id: 5,
-      title: {
-        en: "Independent Developer (Contributor)",
-        de: "Unabhängiger Entwickler (Contributor)",
-      },
-      company: "Rocket.Chat",
+      company: "IIT Madras",
       companyUrl: "",
       location: {
-        en: "Remote",
-        de: "Remote",
+        en: "Remote, India",
+        de: "Remote, Indien",
       },
-      dates: "September 2021 - December 2021",
+      dates: "January 2022 - January 2023",
       bullets: {
         en: [
-          "Implemented new feature for Rocket.Chat using Electron.js in collaboration with core team. Successfully merged after code reviews.",
+          "KARO Startup Technology (Backend Developer, Aug 2022 – Jan 2023):",
+          "Delivered Spring Boot Microservices with 100% on-time delivery for critical deadlines.",
+          "Increased code quality to 95% test coverage (JUnit) and provided 15+ REST APIs.",
+          "Tata Society for Entrepreneurship / JITSIE (Full-Stack Developer, Jan 2022 – Aug 2022):",
+          "Accelerated load times by 40% through optimized caching algorithms in the MERN-Stack.",
+          "Improved UI/UX performance through efficient state management in Redux.",
         ],
         de: [
-          "Implementierte neues Feature für Rocket.Chat mit Electron.js in Zusammenarbeit mit Core-Team. Erfolgreich gemerged nach Code-Reviews.",
+          "KARO Startup Technology (Backend Entwickler, Aug. 2022 – Jan. 2023):",
+          "Lieferte Spring Boot Microservices mit 100% Termintreue bei kritischen Deadlines.",
+          "Erhöhte Code-Qualität auf 95% Testabdeckung (JUnit) und stellte 15+ REST-APIs bereit.",
+          "Tata Society for Entrepreneurship / JITSIE (Full-Stack Entwickler, Jan. 2022 – Aug. 2022):",
+          "Beschleunigte Ladezeiten um 40% durch optimierte Caching-Algorithmen im MERN-Stack.",
+          "Verbesserte UI/UX-Performance durch effizientes State-Management in Redux.",
         ],
       },
-      tags: ["Electron.js", "Open Source"],
+      tags: ["Spring Boot", "Java", "JUnit", "REST API", "MERN Stack", "Redux"],
     },
   ];
 

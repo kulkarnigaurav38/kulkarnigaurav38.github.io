@@ -11,7 +11,7 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
     en: {
       name: "Gaurav Kulkarni",
       title: "Software Engineer",
-      bio: "A collaborative Software Engineer with 4 years experience applying strong problem-solving skills to full-stack web development. I enjoy working in agile teams to tackle challenges across the stack, from backend architecture to intuitive UIs, with a current focus on leveraging AI to create smarter user experiences.",
+      bio: "4 years of full-stack experience with a focus on Data Engineering and scalable AI systems. Development of RAG pipelines & integration of foundation models for process automation. Interest in AI Governance, Guardrails & Zero-Trust architectures (AI Act Compliance). Deployment of microservices on AWS for high availability in enterprise environments.",
       opportunity:
         "Looking for full time opportunities in Germany",
       contact: "Get In Touch",
@@ -19,7 +19,7 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
     de: {
       name: "Gaurav Kulkarni",
       title: "Software-Ingenieur",
-      bio: "Ein kollaborativer Software-Ingenieur mit 4 Jahren Erfahrung in der Anwendung starker Problemlösungsfähigkeiten in der Full-Stack-Webentwicklung. Ich arbeite gerne in agilen Teams, um Herausforderungen im gesamten Stack zu bewältigen, von der Backend-Architektur bis zu intuitiven Benutzeroberflächen, mit aktuellem Fokus auf die Nutzung von KI zur Schaffung intelligenterer Benutzererfahrungen.",
+      bio: "4 Jahre Full-Stack Erfahrung mit Fokus auf Data Engineering und skalierbare KI-Systeme. Entwicklung von RAG-Pipelines & Integration von Foundation Models zur Prozessautomatisierung. Interesse an AI Governance, Guardrails & Zero-Trust Architekturen (AI Act Compliance). Deployment von Microservices auf AWS für Hochverfügbarkeit im Enterprise-Umfeld.",
       opportunity:
         "Auf der Suche nach Vollzeitbeschäftigung in Deutschland",
       contact: "Kontakt Aufnehmen",

@@ -1,4 +1,4 @@
-import { GraduationCap } from "lucide-react";
+import { GraduationCap, ExternalLink } from "lucide-react";
 
 interface EducationProps {
   language: 'en' | 'de';
@@ -11,16 +11,18 @@ const educationData = {
       {
         institution: "Hochschule für Technik Stuttgart",
         degree: "Master's in Software Technology",
-        gpa: "GPA: 2.14/4",
+        gpa: "",
         period: "March 2024 – Present",
-        location: "Stuttgart, Germany"
+        location: "Stuttgart, Germany",
+        degreeUrl: "",
       },
       {
         institution: "R.V. Institute of Technology and Management",
         degree: "Bachelor's in Computer Science and Engineering",
-        gpa: "GPA: 8.14/10",
+        gpa: "Grade: 1.9",
         period: "August 2019 – May 2023",
-        location: "Bengaluru, India"
+        location: "Bengaluru, India",
+        degreeUrl: "https://drive.google.com/file/d/1n93TuIrjOlda7In5HOsDljcP6fiO20QU/view?usp=sharing",
       }
     ]
   },
@@ -30,16 +32,18 @@ const educationData = {
       {
         institution: "Hochschule für Technik Stuttgart",
         degree: "Master in Software-Technologie",
-        gpa: "Notendurchschnitt: 2.14/4",
+        gpa: "",
         period: "März 2024 – Heute",
-        location: "Stuttgart, Deutschland"
+        location: "Stuttgart, Deutschland",
+        degreeUrl: "",
       },
       {
         institution: "R.V. Institute of Technology and Management",
         degree: "Bachelor in Informatik und Ingenieurwesen",
-        gpa: "Notendurchschnitt: 8.14/10",
+        gpa: "Note: 1.9",
         period: "August 2019 – Mai 2023",
-        location: "Bengaluru, Indien"
+        location: "Bengaluru, Indien",
+        degreeUrl: "https://drive.google.com/file/d/1n93TuIrjOlda7In5HOsDljcP6fiO20QU/view?usp=sharing",
       }
     ]
   }
@@ -79,13 +83,27 @@ export const Education = ({ language }: EducationProps) => {
                   </div>
                   
                   <p className="text-lg text-foreground/90 mb-2">
-                    {item.degree}
+                    {item.degreeUrl ? (
+                      <a
+                        href={item.degreeUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline flex items-center gap-1"
+                      >
+                        {item.degree}
+                        <ExternalLink className="h-3 w-3 inline" />
+                      </a>
+                    ) : (
+                      item.degree
+                    )}
                   </p>
                   
                   <div className="flex flex-col md:flex-row md:justify-between md:items-center text-sm text-muted-foreground">
-                    <span className="font-medium text-primary">
-                      {item.gpa}
-                    </span>
+                    {item.gpa && (
+                      <span className="font-medium text-primary">
+                        {item.gpa}
+                      </span>
+                    )}
                     <span>
                       {item.location}
                     </span>
