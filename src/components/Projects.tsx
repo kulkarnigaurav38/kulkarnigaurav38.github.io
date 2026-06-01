@@ -30,7 +30,7 @@ export const Projects = ({ language }: ProjectsProps) => {
         de: "Next.js 16 Monorepo mit einer Dynamic-Programming-Pricing-Engine, die aus 14 Tarifen den günstigsten auswählt. Entwickelte idempotente, race-sichere Stripe-Webhook-Abstimmung, die >1.000 $/Monat an laufendem Umsatz generiert — End-to-End von MVP bis zu zahlenden Kunden geliefert (Freelance, Little Rock, AR).",
       },
       technologies: ["Next.js 16", "React 19", "TypeScript", "Prisma", "PostgreSQL", "Stripe", "Vercel", "Docker"],
-      githubUrl: "#",
+      githubUrl: "https://www.nestparking.com/",
     },
     {
       id: 1,
