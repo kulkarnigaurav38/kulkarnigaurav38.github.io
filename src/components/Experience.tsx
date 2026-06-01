@@ -25,20 +25,20 @@ export const Experience = ({ language }: ExperienceProps) => {
         en: "Stuttgart, Germany",
         de: "Stuttgart, Deutschland",
       },
-      dates: "October 2025 - Present",
+      dates: "October 2025 - March 2026",
       bullets: {
         en: [
-          "Developed Security Shim backend (FastAPI) for technical safeguarding of AI Agent protocols.",
-          "Implemented policies for Ethical AI and governance checks to ensure compliance with security standards.",
-          "Established Zero-Trust architecture through strict identity validation in distributed systems.",
+          "Built a FastAPI Security Shim for AI agents across MCP, A2A, and browser protocols.",
+          "Achieved 98.7% threat-detection recall across 150 test cases.",
+          "Implemented an EU AI Act-aligned Zero-Trust policy engine with intent classification.",
         ],
         de: [
-          "Entwickelte Security Shim Backend (FastAPI) zur technischen Absicherung von AI Agent Protokollen.",
-          "Implementierte Richtlinien für Ethical AI und Governance-Checks zur Einhaltung von Sicherheitsstandards.",
-          "Etablierte Zero-Trust Architektur durch strikte Identitäts-Validierung in verteilten Systemen.",
+          "Entwickelte einen FastAPI Security Shim für AI-Agenten über MCP-, A2A- und Browser-Protokolle.",
+          "Erreichte 98,7% Threat-Detection-Recall über 150 Testfälle.",
+          "Implementierte eine am EU AI Act ausgerichtete Zero-Trust-Policy-Engine mit Intent-Klassifizierung.",
         ],
       },
-      tags: ["Python", "FastAPI", "AI Governance", "Zero-Trust", "Ethical AI"],
+      tags: ["Python", "FastAPI", "MCP", "A2A", "Zero-Trust", "EU AI Act", "LLM Security"],
     },
     {
       id: 2,
@@ -55,17 +55,17 @@ export const Experience = ({ language }: ExperienceProps) => {
       dates: "June 2024 - September 2025",
       bullets: {
         en: [
-          "Designed and implemented a RAG Pipeline with PostgreSQL (Vector DB) and Llama 3.",
-          "Automated cloud tests by integrating the Karate Framework (Java), reducing manual effort by 30%.",
-          "Optimized CI/CD processes for ML models in an agile enterprise environment.",
+          "Built a production RAG pipeline with Llama 3 and pgvector on PostgreSQL.",
+          "Optimized ML CI/CD pipelines and presented results to senior management.",
+          "Automated cloud tests with the Karate Framework (Java), reducing manual effort by 30%.",
         ],
         de: [
-          "Konzipierte und implementierte eine RAG Pipeline mit PostgreSQL (Vector DB) und Llama 3.",
-          "Automatisierte Cloud-Tests durch Integration des Karate Frameworks (Java), was den manuellen Aufwand um 30% senkte.",
-          "Optimierte CI/CD-Prozesse für ML-Modelle in einer agilen Enterprise-Umgebung.",
+          "Entwickelte eine produktive RAG-Pipeline mit Llama 3 und pgvector auf PostgreSQL.",
+          "Optimierte ML-CI/CD-Pipelines und präsentierte Ergebnisse dem Senior Management.",
+          "Automatisierte Cloud-Tests mit dem Karate Framework (Java), was den manuellen Aufwand um 30% senkte.",
         ],
       },
-      tags: ["Python", "PostgreSQL", "RAG", "Llama 3", "Karate", "Java", "CI/CD"],
+      tags: ["Python", "Llama 3", "RAG", "pgvector", "FastAPI", "LangChain", "Karate", "CI/CD"],
     },
     {
       id: 3,

@@ -11,8 +11,8 @@ const educationData = {
       {
         institution: "Hochschule für Technik Stuttgart",
         degree: "Master's in Software Technology",
-        gpa: "",
-        period: "March 2024 – Present",
+        gpa: "Grade: 1.9 (DE eq.)",
+        period: "March 2024 – April 2026",
         location: "Stuttgart, Germany",
         degreeUrl: "",
       },
@@ -32,8 +32,8 @@ const educationData = {
       {
         institution: "Hochschule für Technik Stuttgart",
         degree: "Master in Software-Technologie",
-        gpa: "",
-        period: "März 2024 – Heute",
+        gpa: "Note: 1,9 (DE)",
+        period: "März 2024 – April 2026",
         location: "Stuttgart, Deutschland",
         degreeUrl: "",
       },

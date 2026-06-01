@@ -10,18 +10,18 @@ export const Hero = ({ language, profileImage }: HeroProps) => {
   const content = {
     en: {
       name: "Gaurav Kulkarni",
-      title: "Software Engineer",
-      bio: "4 years of full-stack experience with a focus on Data Engineering and scalable AI systems. Development of RAG pipelines & integration of foundation models for process automation. Interest in AI Governance, Guardrails & Zero-Trust architectures (AI Act Compliance). Deployment of microservices on AWS for high availability in enterprise environments.",
+      title: "Software Engineer building AI-driven full-stack applications",
+      bio: "Software Engineer with 3.5 years of experience building production full-stack and AI applications across Python, TypeScript, React/Next.js, and cloud infrastructure. Development of RAG pipelines & fine-tuned LLMs, with a focus on AI Governance, Guardrails & Zero-Trust architectures (EU AI Act compliance) and microservices on AWS. German B2 · English C1.",
       opportunity:
-        "Looking for full time opportunities in Germany",
+        "Looking for full time opportunities in Germany — available immediately",
       contact: "Get In Touch",
     },
     de: {
       name: "Gaurav Kulkarni",
-      title: "Software-Ingenieur",
-      bio: "4 Jahre Full-Stack Erfahrung mit Fokus auf Data Engineering und skalierbare KI-Systeme. Entwicklung von RAG-Pipelines & Integration von Foundation Models zur Prozessautomatisierung. Interesse an AI Governance, Guardrails & Zero-Trust Architekturen (AI Act Compliance). Deployment von Microservices auf AWS für Hochverfügbarkeit im Enterprise-Umfeld.",
+      title: "Software-Ingenieur für KI-gestützte Full-Stack-Anwendungen",
+      bio: "Software-Ingenieur mit 3,5 Jahren Erfahrung in der Entwicklung produktiver Full-Stack- und KI-Anwendungen mit Python, TypeScript, React/Next.js und Cloud-Infrastruktur. Entwicklung von RAG-Pipelines & feinabgestimmten LLMs, mit Fokus auf AI Governance, Guardrails & Zero-Trust-Architekturen (EU AI Act Compliance) sowie Microservices auf AWS. Deutsch B2 · Englisch C1.",
       opportunity:
-        "Auf der Suche nach Vollzeitbeschäftigung in Deutschland",
+        "Auf der Suche nach Vollzeitbeschäftigung in Deutschland — ab sofort verfügbar",
       contact: "Kontakt Aufnehmen",
     },
   };

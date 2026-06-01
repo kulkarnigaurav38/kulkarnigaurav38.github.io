@@ -20,6 +20,19 @@ export const Projects = ({ language }: ProjectsProps) => {
 
   const projects = [
     {
+      id: 0,
+      title: {
+        en: "Nest Parking – Full-Stack Parking Reservation Platform",
+        de: "Nest Parking – Full-Stack Parkplatz-Reservierungsplattform",
+      },
+      description: {
+        en: "Next.js 16 monorepo with a dynamic-programming pricing engine that picks the cheapest of 14 tariffs. Built idempotent, race-safe Stripe-webhook reconciliation now powering >$1,000/month in live revenue — delivered end-to-end from MVP to paying customers (Freelance, Little Rock, AR).",
+        de: "Next.js 16 Monorepo mit einer Dynamic-Programming-Pricing-Engine, die aus 14 Tarifen den günstigsten auswählt. Entwickelte idempotente, race-sichere Stripe-Webhook-Abstimmung, die >1.000 $/Monat an laufendem Umsatz generiert — End-to-End von MVP bis zu zahlenden Kunden geliefert (Freelance, Little Rock, AR).",
+      },
+      technologies: ["Next.js 16", "React 19", "TypeScript", "Prisma", "PostgreSQL", "Stripe", "Vercel", "Docker"],
+      githubUrl: "#",
+    },
+    {
       id: 1,
       title: "DCF Valuation Engine & Fine-Tuned LLM",
       description: {
